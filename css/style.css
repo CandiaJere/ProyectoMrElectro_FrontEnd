@@ -1,0 +1,313 @@
+
+
+/* encabezado*/
+header{
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2aad6b14-3fd9-4933-8766-62be63939bfb/d7j986x-9fca973b-e2bb-46ba-8681-f6132303c833.jpg/v1/fill/w_1000,h_669,q_75,strp/lightning_stroke_thunder_bolt_by_smoshtae_d7j986x-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY5IiwicGF0aCI6IlwvZlwvMmFhZDZiMTQtM2ZkOS00OTMzLTg3NjYtNjJiZTYzOTM5YmZiXC9kN2o5ODZ4LTlmY2E5NzNiLWUyYmItNDZiYS04NjgxLWY2MTMyMzAzYzgzMy5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.qWOu8T_VGvQb-bRutFZE2h24UJy9yI_3Zxg_l170ZoQ");
+    background-size: cover;
+    padding: 1%;
+}
+
+
+.logo{
+    margin: 0;
+    padding: 0%;
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+    align-items: baseline;
+ 
+}
+
+h1{
+    text-align: center;
+    text-shadow: -12px 2px 7px #1C6EA4;
+    font-family: 'Dosis', sans-serif;
+    font-size: 27px;
+    letter-spacing: -0.4px;
+    word-spacing: 2.4px;
+    color: #5FCCFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+
+} 
+
+
+h1 a:hover{
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -12px 2px 7px #1C6EA4;
+    font-family: 'Dosis', sans-serif;
+    font-size: 27px;
+    letter-spacing: -0.4px;
+    word-spacing: 2.4px;
+    color: #5FCCFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h2{
+    margin: 1px 2px 10px 1px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+     /* formulario de registro */
+    
+    
+     .formulario {
+        /* display: flex; */
+        padding: 20px;
+        align-items: center;
+        background-color: rgb(204, 204, 204);
+        border: 2px solid black;
+        border-radius: 25px;
+        justify-items: center;
+        margin: 8%;
+        justify-content:center;
+        
+    }
+
+
+
+   
+
+    .relleno-formulario{
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+
+
+    .formulario input {
+        border-radius: 10px;
+        justify-content:  center ;
+    }
+
+
+    .formulario label {
+        margin: 10px;
+    }
+
+
+ /*contacto*/
+
+ .contacto {
+    max-width: 1000px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+}
+.contacto-info h2 { text-align: left; }
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    background: #fff;
+    padding: 1.8rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 1px rgba(28, 110, 164, .45);
+}
+.contacto-form input, .contacto-form textarea {
+    border: 1px solid #b8c4d0;
+    border-radius: 6px;
+    padding: .6rem .8rem;
+    font: inherit;
+    margin-bottom: .6rem;
+}
+.contacto-form input:focus, .contacto-form textarea:focus {
+    outline: 3px solid var(--celeste);
+    border-color: var(--azul);
+}
+@media (max-width: 768px) {
+    .contacto { grid-template-columns: 1fr; gap: 1.5rem; }
+    .encabezado h1 { font-size: 2rem; }
+}
+@media (max-width: 480px) {
+    .contacto-form { padding: 1.2rem; }
+    .contacto-form .boton { width: 100%; }
+}
+
+
+
+
+    /* productos*/
+
+
+.productos { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
+    justify-content: center; }
+
+
+.productos .card { 
+    flex: 1 1 250px; 
+    max-width: 320px; }    
+
+
+
+
+.texto {
+    text-align: justify;
+   font-family: Maven Pro;
+   font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+    .articulo{
+        
+        box-shadow: 2px 2px 7px 1px #1C6EA4;
+    }
+        /* .articulo {
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+            align-content: center;
+            margin:20px;
+            width: 30%;
+            height: 1%;
+            border-width: 2px;
+            border-radius: 10px;
+            
+            justify-content: space-around;
+            padding: 30px;
+        }
+    
+            .articulo img {
+            max-width: max-content;
+            width: 80%;
+            height: 100%;
+            padding: 10%;
+        }
+    
+            .articulo p {
+                font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+                font-size: 14px;
+                text-align: justify;
+                letter-spacing: 0.2px;
+                word-spacing: 2px;
+                color: #000000;
+                font-weight: 90px;
+    
+    }
+     */
+
+.contenedor {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        
+    }
+
+    .item {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+        justify-items: center;
+    }   
+
+
+    .carousel-detalles {
+        border: 5px solid rgb(232, 247, 204);
+        border-radius: 10px;
+        box-shadow: 0 15px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .carousel-detalles img {
+        border: 5px solid #fff;
+        border-radius: 5px;}
+
+
+
+
+.columna-texto {
+        border: 2px solid rgb(232, 247, 204);
+        border-radius: 10px;
+        box-shadow: 0 15px 5px rgba(0, 0, 0, 0.1);
+        margin: 1%;
+        background-color: rgb(246, 253, 234);
+    }
+
+    .card.scale-up:hover {
+        transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+        transition: transform 0.3s ease; /* Suaviza la animación */
+    }
+
+ /*footer y redes sociales */
+
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+    border-radius: 10px;
+  }
+
+    .fa-facebook {
+    /*  background: #3B5998;   */
+        color: white;}
+
+    .fa-instagram{
+        color: white;}
+
+    .fa-twitter{
+        color: aliceblue;
+    }
+
+    .fa-github{
+        color: white;
+    }
+
+
+/* responsive */
+
+@media screen and (max-width: 640px) {
+    .redes_sociales {
+    background: blue;
+    }
+    .contenedor{
+        display: flex;
+        
+        padding: 10px;}
+
+        .formulario input {
+            border-radius: 10px;
+            justify-content:  center ;
+        width: 50%;
+        }
+    
+    }
+
+    
+    
+    
+
+
+.cajas{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+
+}
