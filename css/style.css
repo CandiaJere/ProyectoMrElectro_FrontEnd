@@ -108,6 +108,7 @@ h2{
     align-items: start;
 }
 .contacto-info h2 { text-align: left; }
+
 .contacto-form {
     display: flex;
     flex-direction: column;
@@ -117,6 +118,11 @@ h2{
     border-radius: 10px;
     box-shadow: 2px 2px 7px 1px rgba(28, 110, 164, .45);
 }
+
+
+
+
+
 .contacto-form input, .contacto-form textarea {
     border: 1px solid #b8c4d0;
     border-radius: 6px;
@@ -124,10 +130,16 @@ h2{
     font: inherit;
     margin-bottom: .6rem;
 }
+
+
+
 .contacto-form input:focus, .contacto-form textarea:focus {
     outline: 3px solid var(--celeste);
     border-color: var(--azul);
 }
+
+
+
 @media (max-width: 768px) {
     .contacto { grid-template-columns: 1fr; gap: 1.5rem; }
     .encabezado h1 { font-size: 2rem; }
